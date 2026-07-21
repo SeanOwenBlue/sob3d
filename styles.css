@@ -107,6 +107,35 @@ ul {
     width: 50%;
 }
 
+.img-scroll-box {
+	display: flex;
+	overflow-x: auto;
+	gap: 15px; padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	width: max-content;
+	max-width: 100%;
+	box-sizing: border-box;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.img-item{
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.item-box {
+	flex: 0 0 auto;
+	text-align: center;
+}
+
+.item-label {
+	margin-top: 8px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
 a {
     color: #ff0000;
     text-shadow: 1px 1px 0 rgba(0, 255, 255, 1);
